@@ -34,7 +34,7 @@ También utilizará Tableau para explorar visualmente los datos en mayor profund
 
 Utilice diferentes modelos para comparar las precisiones y encontrar el modelo que mejor se ajuste a sus datos. Puedes utilizar las medidas de precisiones que se han comentado en clase. Tenga en cuenta que al comparar diferentes modelos, asegúrese de utilizar la misma medida de precisión como punto de referencia.
 
-### ### Herramientas empleadas
+### Herramientas empleadas
 Visualización : Power BI
 Análisis exploratorio de datos (EDA) : MySQL, Python
 Aprendizaje automático : Python
@@ -74,3 +74,12 @@ Aprendizaje automático : Python
         - Tipo de remitente Postcard
 
 ### Recursos útiles para ver
+
+[Codigo Pyton](https://github.com/MarcosMHrdz/data_mid_bootcamp_project_classification/blob/master/entrega/Proyecto%20mid-bootcamp%20-%20Clasificaci%C3%B3n.ipynb)
+
+[Consultas MySQL](https://github.com/MarcosMHrdz/data_mid_bootcamp_project_classification/blob/master/entrega/sql_questions_classification.sql)
+
+[Presentaciones PowerBi](https://github.com/MarcosMHrdz/data_mid_bootcamp_project_classification/blob/master/entrega/clasificacion.pbix)
+
+[Presentacione PDF](https://github.com/MarcosMHrdz/data_mid_bootcamp_project_classification/blob/master/entrega/Clasificacion.pdf)
+
