@@ -33,3 +33,44 @@ También utilizará Tableau para explorar visualmente los datos en mayor profund
 ### Modelo
 
 Utilice diferentes modelos para comparar las precisiones y encontrar el modelo que mejor se ajuste a sus datos. Puedes utilizar las medidas de precisiones que se han comentado en clase. Tenga en cuenta que al comparar diferentes modelos, asegúrese de utilizar la misma medida de precisión como punto de referencia.
+
+### ### Herramientas empleadas
+Visualización : Power BI
+Análisis exploratorio de datos (EDA) : MySQL, Python
+Aprendizaje automático : Python
+
+### Estructura del proyecto:
+
+1. Importar bibliotecas y cargar el conjunto de datos
+2. Visión general del conjunto de datos
+3. Limpieza de datos
+4. Separar los datos entre variables numéricas y categóricas.
+5. Modelos
+6. Conclusiones
+
+### Conclusión
+- Podemos ver que los datos estan muy desbalanceados, por lo que he tenido que SMOTE para balancearlos, aunque el entrenamiento del modelo lo he hecho con los datos balanceados.
+
+- El modelo Random Forest destaca por su mejor rendimiento global, con menos falsos positivos que los modelos de KNN. Aunque los KNN tienen menos falsos negativos, su tasa de falsos positivos es alta. Por lo tanto, elijo el Random Forest debido a su equilibrio entre falsos negativos y positivos.
+
+- Viendo las caracteristicas numéricas y categoricas, podemos decir que para mejorar los resultados, podriamos centrarnos en clientes con las siguientes caracteristicas. 
+
+        - Nivel  de ingreso Media
+
+        - Calificación crediticia Baja
+
+        - Cuentas bancarias abiertas entre 1
+    
+        - Protección de sobregiro No
+ 
+        - Tarjetas de crédito mantenidas 2
+
+        - Número de viviendas propiedad del cliente 1
+
+        - Tamaño de vivienda 3 - 4 personas
+
+        - Recompensa Millas aereas
+
+        - Tipo de remitente Postcard
+
+### Recursos útiles para ver
